@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat", "SimpleChat\SimpleChat.csproj", "{E4AF2603-7659-4B1F-A4B0-700472D5E522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{6CB7BCAC-3812-4AB5-89F4-746AA47715CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{E33F3ED3-FC7B-4872-BABB-EAB03E1CE162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{AA01DB42-BB64-49FD-A626-63A92B4970A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FF212D73-B8A1-49ED-BFF5-E93F8D5DEECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat.Business.Logic", "SimpleChat.Business.Logic\SimpleChat.Business.Logic.csproj", "{76410E88-20A7-4734-95DA-C5EC5C75C121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat.External.RepositoryR", "SimpleChat.External.RepositoryR\SimpleChat.External.RepositoryR.csproj", "{7AD12B32-7C9B-41F6-B13C-1E7887141946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4AF2603-7659-4B1F-A4B0-700472D5E522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AF2603-7659-4B1F-A4B0-700472D5E522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AF2603-7659-4B1F-A4B0-700472D5E522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AF2603-7659-4B1F-A4B0-700472D5E522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76410E88-20A7-4734-95DA-C5EC5C75C121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76410E88-20A7-4734-95DA-C5EC5C75C121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76410E88-20A7-4734-95DA-C5EC5C75C121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76410E88-20A7-4734-95DA-C5EC5C75C121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD12B32-7C9B-41F6-B13C-1E7887141946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD12B32-7C9B-41F6-B13C-1E7887141946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD12B32-7C9B-41F6-B13C-1E7887141946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD12B32-7C9B-41F6-B13C-1E7887141946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4AF2603-7659-4B1F-A4B0-700472D5E522} = {AA01DB42-BB64-49FD-A626-63A92B4970A3}
+		{76410E88-20A7-4734-95DA-C5EC5C75C121} = {6CB7BCAC-3812-4AB5-89F4-746AA47715CD}
+		{7AD12B32-7C9B-41F6-B13C-1E7887141946} = {E33F3ED3-FC7B-4872-BABB-EAB03E1CE162}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65EE2672-919A-4DC5-A4E1-C83B4C60C1D8}
+	EndGlobalSection
+EndGlobal

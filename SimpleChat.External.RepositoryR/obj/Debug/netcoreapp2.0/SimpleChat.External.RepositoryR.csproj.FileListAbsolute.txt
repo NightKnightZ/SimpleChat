@@ -1,0 +1,5 @@
+c:\users\denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\bin\Debug\netcoreapp2.0\SimpleChat.Business.Logic.dll
+c:\users\denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.External.RepositoryR.csprojAssemblyReference.cache
+c:\users\denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.External.RepositoryR.csproj.CoreCompileInputs.cache
+c:\users\denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.External.RepositoryR.AssemblyInfoInputs.cache
+c:\users\denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.External.RepositoryR.AssemblyInfo.cs
