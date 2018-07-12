@@ -1,18 +1,33 @@
-﻿using SimpleChat.Business.Logic.Interfaces;
+﻿using SimpleChat.Messaging.Interfaces;
+using SimpleChat.Messaging.Database.Sqlite.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
 
-namespace SimpleChat.External.RepositoryR
+namespace SimpleChat.Messaging.Database.Sqlite
 {
-    class Repository<T> : IRepository<T>
+    public class Repository<T> : IRepository<T>
         where T : class
     {
         DbSet<T> dbset;
-        Context context;
+        MessagingContext context;
+        IDatabaseSettings dbSettings;
 
-        public Repository(string connectionString)
+        public Repository(IDatabaseSettings dbSettings)
         {
-            context = new Context(connectionString);
-            dbset = context.Set<T>();
+            this.dbSettings = dbSettings;
+            context = new MessagingContext(dbSettings);
+            dbset = context.Set<T>(); 
+        }
+
+        public void CreateDatabase()
+        {
+            if (!File.Exists(dbSettings.ConnectionString))
+            { context.Database.EnsureCreated(); }
+        }
+
+        public void ContextDispose()
+        {
+            context.Dispose();
         }
 
         public void Add(T item)

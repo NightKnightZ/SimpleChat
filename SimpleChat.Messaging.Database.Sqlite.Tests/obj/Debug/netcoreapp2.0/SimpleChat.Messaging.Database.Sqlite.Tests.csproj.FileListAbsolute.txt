@@ -1,0 +1,6 @@
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Messaging.Database.Sqlite.Tests\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Messaging.Database.Sqlite.Tests\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Messaging.Database.Sqlite.Tests\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.Tests.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Messaging.Database.Sqlite.Tests\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Messaging.Database.Sqlite.Tests\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.Tests.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Messaging.Database.Sqlite.Tests\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.Tests.AssemblyInfo.cs

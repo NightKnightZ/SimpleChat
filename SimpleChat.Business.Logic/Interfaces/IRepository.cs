@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleChat.Business.Logic.Interfaces
+namespace SimpleChat.Messaging.Interfaces
 {
     public interface IRepository<T>
         where T : class

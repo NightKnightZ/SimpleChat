@@ -912,14 +912,14 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "SimpleChat.Business.Logic/1.0.0": {
+      "SimpleChat.Messaging/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "compile": {
-          "bin/placeholder/SimpleChat.Business.Logic.dll": {}
+          "bin/placeholder/SimpleChat.Messaging.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SimpleChat.Business.Logic.dll": {}
+          "bin/placeholder/SimpleChat.Messaging.dll": {}
         }
       }
     }
@@ -3274,17 +3274,17 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "SimpleChat.Business.Logic/1.0.0": {
+    "SimpleChat.Messaging/1.0.0": {
       "type": "project",
-      "path": "../SimpleChat.Business.Logic/SimpleChat.Business.Logic.csproj",
-      "msbuildProject": "../SimpleChat.Business.Logic/SimpleChat.Business.Logic.csproj"
+      "path": "../SimpleChat.Business.Logic/SimpleChat.Messaging.csproj",
+      "msbuildProject": "../SimpleChat.Business.Logic/SimpleChat.Messaging.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
-      "SimpleChat.Business.Logic >= 1.0.0"
+      "SimpleChat.Messaging >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3294,11 +3294,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.External.RepositoryR\\SimpleChat.External.RepositoryR.csproj",
-      "projectName": "SimpleChat.External.RepositoryR",
-      "projectPath": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.External.RepositoryR\\SimpleChat.External.RepositoryR.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.External.RepositoryR\\SimpleChat.Messaging.Database.Sqlite.csproj",
+      "projectName": "SimpleChat.Messaging.Database.Sqlite",
+      "projectPath": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.External.RepositoryR\\SimpleChat.Messaging.Database.Sqlite.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.External.RepositoryR\\obj\\",
+      "outputPath": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.External.RepositoryR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3317,8 +3317,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Business.Logic.csproj": {
-              "projectPath": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Business.Logic.csproj"
+            "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Messaging.csproj": {
+              "projectPath": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Messaging.csproj"
             }
           }
         }

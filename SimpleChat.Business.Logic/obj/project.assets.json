@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Business.Logic.csproj",
-      "projectName": "SimpleChat.Business.Logic",
-      "projectPath": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Business.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Messaging.csproj",
+      "projectName": "SimpleChat.Messaging",
+      "projectPath": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\SimpleChat.Messaging.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\obj\\",
+      "outputPath": "C:\\Users\\Denis\\source\\repos\\SimpleChat\\SimpleChat.Business.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
