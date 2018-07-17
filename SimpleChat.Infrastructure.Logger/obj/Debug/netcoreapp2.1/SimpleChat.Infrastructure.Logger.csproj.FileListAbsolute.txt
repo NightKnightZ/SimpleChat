@@ -4,3 +4,7 @@ C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\obj\Debu
 C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\obj\Debug\netcoreapp2.1\SimpleChat.Infrastructure.Logger.csproj.CoreCompileInputs.cache
 C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\obj\Debug\netcoreapp2.1\SimpleChat.Infrastructure.Logger.AssemblyInfoInputs.cache
 C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\obj\Debug\netcoreapp2.1\SimpleChat.Infrastructure.Logger.AssemblyInfo.cs
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\bin\Debug\netcoreapp2.1\SimpleChat.Infrastructure.Logger.pdb
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\obj\Debug\netcoreapp2.1\SimpleChat.Infrastructure.Logger.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\obj\Debug\netcoreapp2.1\SimpleChat.Infrastructure.Logger.pdb
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Infrastructure.Logger\bin\Debug\netcoreapp2.1\NLog.config
