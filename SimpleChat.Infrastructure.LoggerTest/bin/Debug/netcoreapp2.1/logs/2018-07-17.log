@@ -1,0 +1,4 @@
+2018-07-17 16:54:12.6721|ERROR|SimpleChatLogger|error message
+2018-07-17 16:54:12.8411|ERROR|SimpleChatLogger|error message
+2018-07-17 16:54:12.8462|WARN|SimpleChatLogger|warn message
+2018-07-17 16:54:12.8462|ERROR|SimpleChatLogger|info message

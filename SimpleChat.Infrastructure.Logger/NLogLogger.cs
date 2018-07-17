@@ -12,11 +12,6 @@ namespace SimpleChat.Infrastructure.Logger
         public NLogLogger(string directory)
         {
             logger = LogManager.GetLogger(LoggerName);
-            var config = new LoggingConfiguration();
-            var logfile = new FileTarget("logfile") { FileName = directory };
-
-            config.AddRule(LogLevel.Debug, LogLevel.Fatal, logfile);
-            LogManager.Configuration = config;
         }
 
         public void Error(string message)

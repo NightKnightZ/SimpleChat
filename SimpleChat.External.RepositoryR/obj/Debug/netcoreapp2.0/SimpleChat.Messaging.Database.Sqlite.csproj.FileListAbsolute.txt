@@ -1,0 +1,12 @@
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.deps.json
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.pdb
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.pdb
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.AssemblyInfo.cs
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.csproj.CopyComplete
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.External.RepositoryR\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.Database.Sqlite.pdb

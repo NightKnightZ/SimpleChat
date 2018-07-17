@@ -12,15 +12,25 @@ namespace SimpleChat.Messaging.Database.Sqlite
 
         public MessagingContext(IDatabaseSettings dbSettings)
         {
-            this.dbSettings = dbSettings ?? throw new ArgumentNullException(nameof(dbSettings));
+            CheckSettings(dbSettings);
+            
+        }
+
+        private void CheckSettings(IDatabaseSettings dbSettings)
+        {
+            
+            if (dbSettings == null)
+                throw new ArgumentNullException(nameof(dbSettings));
+
+            if (string.IsNullOrWhiteSpace(dbSettings.ConnectionString))
+                throw new ArgumentException("Database connection string cannot be null or white space");
+            this.dbSettings = dbSettings;
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlite(dbSettings.ConnectionString);
+            optionsBuilder.UseSqlite($"FileName={dbSettings.ConnectionString}");
         }
-
-
     }
 }
