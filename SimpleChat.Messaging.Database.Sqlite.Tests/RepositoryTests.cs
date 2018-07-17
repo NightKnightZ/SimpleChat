@@ -10,14 +10,14 @@ namespace SimpleChat.Messaging.Database.Sqlite.Tests
     [TestClass]
     public class RepositoryTests
     {
-        const string dbPath = "c:\\";
+        const string dbPath = "A:";
         const string dbName = "SCTestDB.db3";
         string dbFullPath = $"{dbPath}\\{dbName}";
         IDatabaseSettings dbSettings;
         User user;
         Message message;
-        Repository<User> userRepository;
-        Repository<Message> messageRepository;
+        MessagingRepository<User> userRepository;
+        MessagingRepository<Message> messageRepository;
 
         [TestInitialize]
         public void Init()
@@ -31,9 +31,7 @@ namespace SimpleChat.Messaging.Database.Sqlite.Tests
         [TestMethod]
         public void AddUpdateDeleteUser()
         {
-            userRepository = new Repository<User>(dbSettings);
-            userRepository.CreateDatabase();
-
+            userRepository = new MessagingRepository<User>(dbSettings);
             user = new User { Id = 1, Login = "NK" };
             userRepository.Add(user);
             userRepository.Save();
@@ -61,16 +59,13 @@ namespace SimpleChat.Messaging.Database.Sqlite.Tests
 
             Assert.IsNull(userFromDb);
 
-            userRepository.ContextDispose();
+            userRepository.Dispose();
         }
-
 
         [TestMethod]
         public void AddUpdateDeleteMessage()
         {
-            messageRepository = new Repository<Message>(dbSettings);
-            messageRepository.CreateDatabase();
-
+            messageRepository = new MessagingRepository<Message>(dbSettings);
             message = new Message { Id = 1, UserId=1, Text = "NK" };
             messageRepository.Add(message);
             messageRepository.Save();
@@ -100,7 +95,7 @@ namespace SimpleChat.Messaging.Database.Sqlite.Tests
 
             Assert.IsNull(messageFromDb);
 
-            messageRepository.ContextDispose();
+            messageRepository.Dispose();
         }
 
         [TestCleanup]

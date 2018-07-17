@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using Moq;
-using SimpleChat.External.RepositoryR;
 using SimpleChat.Messaging.Database.Sqlite.Interfaces;
 using SimpleChat.Messaging.Entities;
 
@@ -10,7 +9,7 @@ namespace SimpleChat.Messaging.Database.Sqlite.Tests
     [TestClass]
     public class ContextTests
     {
-        const string dbPath = "c:\\";
+        const string dbPath = "A:";
         const string dbName = "SCTestDB.db3";
         string dbFullPath = $"{dbPath}\\{dbName}";
         IDatabaseSettings dbSettings;
