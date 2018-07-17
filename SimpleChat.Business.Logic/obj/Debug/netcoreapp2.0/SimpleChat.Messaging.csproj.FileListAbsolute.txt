@@ -1,0 +1,9 @@
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.deps.json
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\bin\Debug\netcoreapp2.0\SimpleChat.Messaging.pdb
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.AssemblyInfo.cs
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat.Business.Logic\obj\Debug\netcoreapp2.0\SimpleChat.Messaging.pdb

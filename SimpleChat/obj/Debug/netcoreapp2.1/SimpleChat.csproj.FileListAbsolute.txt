@@ -1,0 +1,11 @@
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\bin\Debug\netcoreapp2.1\SimpleChat.deps.json
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\bin\Debug\netcoreapp2.1\SimpleChat.runtimeconfig.json
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\bin\Debug\netcoreapp2.1\SimpleChat.runtimeconfig.dev.json
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\bin\Debug\netcoreapp2.1\SimpleChat.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\bin\Debug\netcoreapp2.1\SimpleChat.pdb
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\obj\Debug\netcoreapp2.1\SimpleChat.csprojAssemblyReference.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\obj\Debug\netcoreapp2.1\SimpleChat.csproj.CoreCompileInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\obj\Debug\netcoreapp2.1\SimpleChat.AssemblyInfoInputs.cache
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\obj\Debug\netcoreapp2.1\SimpleChat.AssemblyInfo.cs
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\obj\Debug\netcoreapp2.1\SimpleChat.dll
+C:\Users\Denis\source\repos\SimpleChat\SimpleChat\obj\Debug\netcoreapp2.1\SimpleChat.pdb
